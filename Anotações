@@ -1,0 +1,11 @@
+nodemon - para rodar o node, adicionar nos scripts no package.json
+
+sucrase - para utilizar a sintaxe export import no node, adicionar ao script de dev e adicionar arquivo nodemon.json para utilizar o sucrase
+
+sequelize - para gerenciamento do banco de dados
+
+eslint Prettier e EditorConfig - para padronizar o código, criar arquivos de configuração com as preferencias de código[
+
+criando migration -rodar comando yarn sequelize migration:create --name nomedomigration
+
+rodando migration - rodar yarn sequelize db:migrate
